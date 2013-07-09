@@ -2,7 +2,7 @@
 var director = new CAAT.Foundation.Director().initialize(
         100,    // 100 pixels wide
         100,    // 100 pixels across
-        document.getElementById('_c1')
+        'canvas'
 );
  
 // add a scene object to the director.
